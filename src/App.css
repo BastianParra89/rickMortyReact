@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+html,
+body  {
+  font-size: 18px;
+  background-color: #f5f6f7 ;
+  font-family: "Ubuntu" !important;
+
+}
+
+
+.card-character {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  gap: 4em;
+}
+
+.container-location {
+  width: 60%;
+  text-align: center;
+  margin: 2em auto;
+  padding: 10px;
+  background-color: #ffffff; 
+  box-shadow: 0 3px 30px 1px rgb(0 0 0 / 9%);
+  border-radius: 10px;
+}
+
+.container-search {
+  width: 40%;
+  text-align: center;
+  margin: 2em auto;
+  padding: 10px;
+  background-color: #ffffff; 
+  box-shadow: 0 3px 30px 1px rgb(0 0 0 / 9%);
+  border-radius: 10px;
+}
+
+.container-wrapper  {
+  position: relative;
+  background: url(https://preview.redd.it/i7zzklw0d3b81.jpg?auto=webp&s=04f91c8b41b36b7607867b9bbfb3ab7b10a74347) no-repeat center/cover;
+  height: 400px;
+  width: 100%;
+  top: 0;
+
+}

@@ -1,0 +1,37 @@
+form    {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    gap: 8px;
+}
+
+input {
+    width: 80%;
+    border: 2px solid #0b5ed7;
+    border-radius: 3px;
+    font-size: 25px;
+    padding: 10px 15px;
+    height: 20px;
+    color: lightslategray;
+   
+  }
+  
+  button    {
+    background-color: #0b5ed7;
+    font-size: 20px;
+    border-radius: .5rem;
+    padding: 8px;
+    color: aliceblue;
+
+
+
+  }
+
+  @media (max-width: 576px) {
+    .input {
+      width: 80%;
+    }
+  }

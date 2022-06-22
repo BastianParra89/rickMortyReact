@@ -1,0 +1,12 @@
+
+.card-location {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+
+
+article ul  {
+    
+    list-style: none
+}
